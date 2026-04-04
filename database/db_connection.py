@@ -116,7 +116,7 @@ class DatabaseConnection:
             tuple or None: The first row as a tuple, or None if no results.
 
         Raises:
-            DatabaseError: If an error occurs while querying the database.
+            DatabaseException: If an error occurs while querying the database.
         """
         try:
             cursor = self.conn.cursor()
