@@ -1,4 +1,4 @@
-from core.window import MainWindow
+from core.main_window import MainWindow
 
 def main():
     app = MainWindow()
